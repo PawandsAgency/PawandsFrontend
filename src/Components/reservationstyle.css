@@ -27,6 +27,14 @@
         -webkit-user-select: none;
         touch-action: manipulation;
       }
+      #Forms{
+        padding: 50px 60px;
+        display:none;
+        float: left;
+        text-align: left;
+        border: solid rgba(0, 0, 0, 0.508) 1px;
+        border-radius: 30px;
+      }
       
       .button-86::after,
       .button-86::before {
