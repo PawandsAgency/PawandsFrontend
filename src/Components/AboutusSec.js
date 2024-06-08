@@ -1,6 +1,9 @@
 import React from "react";
 import "./AboutusStyle.css";
 import bimg from "../assents/logo5.png";
+import Aztek from "../assents/aztekrobotics.png"
+import Secrypto from '../assents/SeCrypto.png'
+import geoturkey from '../assents/GEO TURKEY.png'
 
 function AboutusSec() {
   return (
@@ -53,8 +56,15 @@ function AboutusSec() {
             <div className="col-4">Shopify Page Design</div>
           </div>
         </div>
+        <h1>Our Trusted Companies</h1>
+     
+        <div className="row companies">
+        <div className="col-6"><img src={Aztek}></img></div>
+        <div className="col-6"><img src={geoturkey}></img></div>
+        </div>
+        </div>
       </div>
-    </div>
+ 
   );
 }
 
